@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "700005403259",
+    "firebase_url": "https://estacionamento-fdec9.firebaseio.com",
+    "project_id": "estacionamento-fdec9",
+    "storage_bucket": "estacionamento-fdec9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:700005403259:android:21d2642eef7dcb59e8f0de",
+        "android_client_info": {
+          "package_name": "com.example.estacionamento"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "700005403259-q0pnlempn603bkhfovp3cmhhr53921hv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.estacionamento",
+            "certificate_hash": "6f9ae5952d8f9d1ff56deed2b3353cc2a3e56a40"
+          }
+        },
+        {
+          "client_id": "700005403259-n8gpcvr8qh6jcu36kimkigaue1ur0bam.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkqav2bXpfFFvhJrA79QQaajUnmT0c3KU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "700005403259-n8gpcvr8qh6jcu36kimkigaue1ur0bam.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Estacionamento.TabelaHorarioCadastro">
+
+
+    <TextView
+        android:textAlignment="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtHorario"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:text="Cadastro - Data/Hora"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        />
+
+    <EditText
+        android:id="@+id/horarioAbertura"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtHorario"
+        android:layout_marginTop="99dp"
+        android:gravity="center"
+        android:hint="Horário de Fechamento"
+        android:inputType="datetime" />
+
+    <EditText
+        android:id="@+id/horarioFechamento"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/horarioAbertura"
+        android:layout_marginTop="49dp"
+        android:gravity="center"
+        android:hint="Horário de Fechamento"
+        android:inputType="datetime" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/horarioFechamento"
+        android:layout_marginTop="51dp"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/Button_cadastroH"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="180dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/spinner"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="47dp"
+        android:text="Cadastrar" />
+
+    <Button
+        android:id="@+id/btn_back"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="180dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/spinner"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="44dp"
+        android:layout_toRightOf="@+id/Button_cadastroH"
+        android:text="Voltar" />
+
+
+</RelativeLayout>

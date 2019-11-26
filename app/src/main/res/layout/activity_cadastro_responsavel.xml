@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    tools:context=".Responsavel.ResponsavelCadastro">
+
+
+
+    <TextView
+        android:textAlignment="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:text="Cadastro - Continuação"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EditText_User_FUL"
+        android:hint="Nome Completo"
+        android:gravity="center"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/EditText_User_Phone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_marginTop="82dp"
+        android:gravity="center"
+        android:hint="Telefone"
+        android:inputType="phone" />
+
+
+    <Button
+        android:id="@+id/Button_exibir"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_cadastrarResp"
+        android:layout_marginTop="100dp"
+        android:text="Exibir dados"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <Button
+        android:id="@+id/btn_cadastrarResp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/EditText_User_FUL"
+        android:layout_marginTop="100dp"
+        android:text="Cadastrar"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <Button
+        android:id="@+id/btn_backs"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/EditText_User_FUL"
+        android:layout_marginTop="181dp"
+        android:text="Voltar"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+
+</RelativeLayout>

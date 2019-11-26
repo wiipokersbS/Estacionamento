@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="20dp"
+    tools:context=".Login.MainActivity">
+
+
+
+    <TextView
+        android:textAlignment="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:text="Cadastro"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EditText_User_EmailID"
+        android:hint="E-mail"
+        android:gravity="center"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EditText_User_Password"
+        android:hint="Senha"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:layout_below="@+id/EditText_User_EmailID"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/Button_SignUp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EditText_User_Password"
+        android:layout_marginTop="20dp"
+        android:text="Cadastre-se" />
+
+    <TextView
+        android:textAlignment="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Button_LoginActivity"
+        android:layout_below="@+id/Button_SignUp"
+        android:text="Já Tem cadastro? Login!"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/Button_Mapa"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Button_SignUp"
+        android:layout_marginTop="76dp"
+        android:text="É motorista? Encontre seu estacionamento"
+        android:textAlignment="center" />
+
+
+</RelativeLayout>

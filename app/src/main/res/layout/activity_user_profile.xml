@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/user_email"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="#000"/>
+
+    <Button
+        android:id="@+id/bt_createdata"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Continuar Meu Cadastro"/>
+
+    <Button
+        android:id="@+id/bt_viewDB"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:src="@android:drawable/ic_input_add"
+        android:text="Cadastrar Estabelecimento" />
+
+    <Button
+        android:id="@+id/bt_cadastrarHorario"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:src="@android:drawable/ic_input_add"
+        android:text="Cadastrar Horarios"/>
+
+
+    <Button
+        android:id="@+id/bt_cadastrarPreco"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:src="@android:drawable/ic_input_add"
+        android:text="Cadastrar Preços"/>
+
+
+    <Button
+        android:id="@+id/btn_exibirEstacionamento"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:src="@android:drawable/ic_input_add"
+        android:text="Exibir estacionamentos em cadastro"/>
+
+
+
+
+    <Button
+        android:id="@+id/logout"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_exibirEstacionamento"
+        android:layout_marginTop="30dp"
+        android:text="Logout" />
+
+
+
+</LinearLayout>
+
